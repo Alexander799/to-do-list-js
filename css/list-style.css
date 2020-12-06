@@ -1,0 +1,34 @@
+.page__list {
+    list-style-type: none;
+}
+
+.page__litem {
+    position: relative;
+    border-bottom: 1px solid black;
+}
+
+.page__licheck,
+.page__litext,
+.page__liurn {
+    display: inline-block;
+}
+
+.page__licheck {
+    width: 0.8em;
+    height: 0.8em;
+}
+
+.page__litext {
+    margin-left: 0.625em;
+    font-family: "Coming Soon";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.page__liurn {
+    position: absolute;
+    right: 0;
+}

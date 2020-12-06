@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset/reset.css">
+    <link rel="stylesheet" href="./css/fonts/fonts.css">
+    <link rel="stylesheet" href="./css/info-window.css">
+    <link rel="stylesheet" href="./css/page-styles.css">
+    <link rel="stylesheet" href="./css/list-style.css">
+    <title>TO DO LIST</title>
+</head>
+
+<body>
+    <div class="page">
+        <div class="page__infowindow">
+            <div class="page__info">
+                <span class="page__infoclose">&times;</span>
+            </div>
+        </div>
+        <div class="page__content">
+            <h1 class="page__header">TO DO List</h1>
+            <i class="far fa-question-circle page__information"></i>
+            <ul class="page__list"></ul>
+            <div class="page__control">
+                <div class="page__fieldinput">
+                    <input type="text" class="page__input" placeholder="Wright a task" autofocus>
+                    <input type="button" value="Add" class="page__add">
+                </div>
+                <div class="page__blocalstorage">
+                    <input type="button" value="Clear" class="page__clear">
+                    <input type="button" value="Save" class="page__save">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/494502200e.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

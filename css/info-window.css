@@ -1,0 +1,33 @@
+.page__infowindow {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.page__info {
+    width: 28em;
+    height: 28em;
+    margin: 2em auto;
+    border-radius: 2em;
+    text-align: center;
+    font-family: "Coming Soon";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    background: white;
+}
+
+.page__infoclose {
+    display: inline-block;
+    position: fixed;
+    right: 1em;
+    top: 1em;
+    cursor: pointer;
+    font-size: 3em;
+    color: white;
+}
